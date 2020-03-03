@@ -6,5 +6,5 @@ WHMCS DARK (Six Client Area Template)<br/><br />
 ## Demo
 * [Website](https://core.cynichost.com) - here is an demo.<br /><br />
 
-![Image](https://core.cynichost.com/templates/six/css/demo.png)
+![Image](http://core.cynichost.com/templates/six/css/demo.png)
 
