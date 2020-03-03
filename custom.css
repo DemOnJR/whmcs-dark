@@ -1,0 +1,219 @@
+/* ************************************************************
+
+    ** Custom Stylesheet **
+
+    Any custom styling you want to apply should be
+    defined here.
+    
+    ** Custom Stylesheet **
+    Pipiasi Bogdan - http://pipiasibogdan.ovh
+    This file is under construction please update it daily.
+    
+*************************************************************** */
+body {
+	font-family: Roboto,sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	color: rgba(224,232,255,.8);
+	background: linear-gradient(135deg,#051866,#021038 80%);
+}
+
+section#header {
+  margin: 0;
+  padding: 10px 0;
+  border-radius: 5px 5px 0 0;
+  border-top: 1px solid rgba(224,232,255,.078);
+	background: linear-gradient(135deg,#051866,#021038 80%);
+}
+
+a {
+	color: #fff;
+}
+
+a:focus, a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+ul.top-nav > li > a {
+  padding: 6px 10px;
+  color: #fff;
+  line-height: 20px;
+  text-decoration: none;
+}
+
+ul.top-nav > li:active > a, ul.top-nav > li:focus > a, ul.top-nav > li:hover > a, ul.top-nav > li > a:focus {
+	color: #fff;
+	text-decoration: none;
+	background: 0 0;
+}
+
+.navbar {
+  border-radius: 0px;
+}
+
+.navbar-main {
+  margin-bottom: 0;
+	background: linear-gradient(90deg,#011a62,#0940b3);
+	border: 0;
+  border-bottom-color: currentcolor;
+  border-bottom-style: none;
+  border-bottom-width: 0px;
+	min-height: 38px;
+	font-family: Raleway,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 15px;
+}
+
+.popover-user-notifications {
+  border-radius: 0;
+  padding: 0;
+  border-color: #ddd;
+  min-width: 310px;
+  font-family: 'Open Sans',sans-serif;
+}
+
+.popover-user-notifications ul li.none {
+  padding: 12px 0;
+  min-height: auto;
+  text-align: center;
+  font-weight: 700;
+  background: linear-gradient(270deg,#081e6e,#0e2475);
+}
+
+section#main-body {
+  margin: 0;
+  padding: 20px 0;
+  min-height: 350px;
+  background: linear-gradient(135deg,#051866,#021038 80%);
+}
+
+section#footer {
+	margin: 0;
+	padding: 20px 10px;
+	border-top: 1px solid #ddd;
+	color: #666;
+	font-size: .9em;
+	border-top: 1px solid rgba(224,232,255,.078);
+  background: linear-gradient(90deg,#011a62,#0940b3);
+}
+
+.panel {
+	margin-bottom: 20px;
+	border: 0px solid transparent;
+	border-radius: 4px;
+	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,.08);
+	background: linear-gradient(90deg,#011a62,#0940b3);
+}
+.panel-default > .panel-heading {
+	color: #fff;
+	background-color: #f5f5f5;
+	border-color:#ddd;
+	border-bottom-color: rgb(221, 221, 221);
+}
+.panel-sidebar .panel-title {
+  font-size: 1.1em;
+  font-weight: 300;
+  font-family: 'Open Sans',sans-serif;
+  line-height: 26px;
+  color: #fff;
+}
+.home-kb-search .form-control {
+	padding-left: 50px;
+	border: 0px solid #eee;
+	color: #fff;
+	font-weight: 300;
+	background-color: rgba(224,232,255,.08);
+}
+.panel-sidebar > .panel-heading {
+	color: #fff;
+	border-bottom: 0;
+	background: linear-gradient(90deg,#011a62,#0940b3);
+}
+
+.panel-sidebar > .panel-footer {
+	color: #fff;
+	border-top: 0;
+	background: linear-gradient(90deg,#011a62,#285dcc);
+}
+
+.client-home-panels .panel > .panel-heading {
+  border-bottom: 0;
+  font-weight: 700;
+  background: linear-gradient(90deg,#011a62,#285dcc);
+}
+
+.list-group-item {
+	position: relative;
+	display: block;
+	padding: 10px 15px;
+	margin-bottom: -1px;
+	border: 1px solid #ddd;
+	background-color: rgba(0,0,0,.1);
+}
+
+a.list-group-item, button.list-group-item {
+	color: #fff;
+}
+
+a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, button.list-group-item:hover {
+	color: #fff;
+	text-decoration: none;
+	background-color: rgba(224,232,255,.08);
+}
+
+.panel-sidebar a.list-group-item:hover i.far, .panel-sidebar a.list-group-item:hover i.fas {
+	color: #fff !important;
+}
+
+#registration .field, #registration .form-control {
+	position: relative;
+	vertical-align: top;
+	border: 1px solid #ddd;
+	display: -moz-inline-stack;
+	display: inline-block;
+	color: #626262;
+	outline: 0;
+	background: #000;
+	height: 36px;
+	width: 100%;
+	border-radius: 3px;
+	font-size: 13px;
+}
+
+
+/*
+#########################################################
+	CLIENT AREA AFTER LOGIN
+#########################################################
+*/
+
+/* tiles (services,quotes,tickets,invoices) */
+.tile .title {
+	font-weight: 700;
+	color: rgba(224,232,255,.8);
+	text-transform: uppercase;
+	font-size: 12px;
+}
+
+.tiles .tile {
+	color: rgba(224,232,255,.8);
+	padding: 12px 20px;
+	border-right: 1px solid #ccc;
+	background-color: rgba(5,108,234,.08);
+}
+
+.tiles .tile:hover {
+	background-color: rgba(5,108,234,.16);
+	cursor: pointer;
+}
+
+
+
+.marketing-email-optin {
+	margin: 0 0 20px 0;
+	padding: 10px 20px 20px;
+	background-color: #000d;
+	border-radius: 3px;
+}
