@@ -1,5 +1,5 @@
 ## WHMCS DARK 
-Default template "Six" & Client Area <br/><br />
+Default template "Six" & Client Area <br/>
 
 ## How to install?
 * [Tutorial](https://pipiasibogdan.ovh/github/whmcs-dark/) - update this file weekly.
