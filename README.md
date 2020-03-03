@@ -1,7 +1,9 @@
 # whmcs-dark
 WHMCS DARK (Six Client Area Template)<br/>
-## Built With
 
+## How to install?
 * [Tutorial](https://pipiasibogdan.ovh/github/whmcs-dark/) - update this file weekly.
-*
-![Image of Yaktocat](https://i.imgur.com/MTb0dMR.png)
+
+## Demo
+* [Website](https://core.cynichost.com) - here is an demo.
+* ![Image](https://i.imgur.com/MTb0dMR.png)
