@@ -176,6 +176,11 @@ section#footer {
   font-size: .9em;
   border-top: 1px solid rgba(224,232,255,.078);
   background: linear-gradient(90deg,#011a62,#0940b3);
+  /* sticky fixed bottom */
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
 /* END */
 
