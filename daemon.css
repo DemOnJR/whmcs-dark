@@ -233,7 +233,7 @@ section#footer {
 .panel-sidebar > .panel-heading {
   color: #fff;
   border-bottom: 0;
-  background: linear-gradient(90deg,#011a62,#0940b3);
+  background: linear-gradient(90deg,#011a62,#285dcc);
 }
 
 .panel-sidebar .panel-title {
@@ -314,6 +314,14 @@ a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, 
 }
 
 /*
+  Preview:https://i.imgur.com/51iNnlh.png;
+*/
+.list-group-item .badge {
+  background-color: transparent;
+  color: rgba(224,232,255,.8);
+}
+
+/*
 #########################################################
   CLIENT AREA AFTER LOGIN
 #########################################################
@@ -339,6 +347,38 @@ a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, 
   cursor: pointer;
 }
 /* END */
+
+/*
+#########################################################
+  ORDER SUMMARY
+  Preview:;
+#########################################################
+*/
+.domain-renewals {
+  margin: 10px 0;
+  border-top: 1px solid #ccc;
+  background: rgba(5,108,234,.078);
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,.08);
+  padding: 5px;
+}
+
+#order-standard_cart .summary-container {
+  margin: 0;
+  padding: 10px;
+  min-height: 100px;
+  border-radius: 3px;
+  font-size: .8em;
+  background: linear-gradient(90deg,#011a62,#0940b3);
+}
+
+#order-standard_cart .order-summary {
+  margin: 0 0 20px 0;
+  padding: 0;
+  background-color: #666;
+  border-bottom: 0px solid #666;
+  border-radius: 4px;
+  background: linear-gradient(90deg,#011a62,#285dcc);
+}
 
 /*
 #########################################################
@@ -407,6 +447,30 @@ table.table-list thead th {
   background: rgba(5,108,234,.08);
 }
 /* END */
+
+/*
+#########################################################
+  TEXTS
+#########################################################
+*/
+
+/*
+ Preview:https://i.imgur.com/7QaVavo.png;
+*/
+div.header-lined h1 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  padding: 6px 0;
+  border-bottom: 1px solid #ccc;
+  font-weight: 400;
+  color: #fff;
+}
+div.header-lined .breadcrumb li a {
+  color: rgba(224,232,255,.8);
+}
+div.header-lined .breadcrumb > .active {
+  color: rgba(224,232,255,.48);
+}
 
 /*
 #########################################################
