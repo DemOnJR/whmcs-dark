@@ -1,3 +1,4 @@
 # whmcs-dark
 WHMCS DARK (Six Client Area Template)
-https://i.imgur.com/MTb0dMR.png
+
+![Image of Yaktocat](https://i.imgur.com/MTb0dMR.png)
