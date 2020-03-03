@@ -9,7 +9,7 @@
 
     Pipiasi Bogdan. https://pipiasibogdan.ovh;
     If you want to use this file just copy the link:
-			https://raw.githubusercontent.com/DemOnJR/whmcs-dark/master/custom.css
+      https://raw.githubusercontent.com/DemOnJR/whmcs-dark/master/custom.css
     ;
     or download it and update the file every day.
 
@@ -19,16 +19,16 @@
 
 ***************************************************** */
 body {
-	font-family: Roboto,sans-serif;
-	font-size: 14px;
-	line-height: 24px;
-	font-weight: 400;
-	color: rgba(224,232,255,.8);
-	background: linear-gradient(135deg,#051866,#021038 80%);
+  font-family: Roboto,sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  color: rgba(224,232,255,.8);
+  background: linear-gradient(135deg,#051866,#021038 80%);
 }
 
 a {
-	color: #fff;
+  color: #fff;
 }
 
 a:focus, a:hover {
@@ -38,7 +38,7 @@ a:focus, a:hover {
 
 /*
 #########################################################
-	NAVBAR
+  NAVBAR
 #########################################################
 */
 
@@ -47,7 +47,7 @@ section#header {
   padding: 10px 0;
   border-radius: 5px 5px 0 0;
   border-top: 1px solid rgba(224, 232, 255, .078);
-	background: linear-gradient(135deg, #051866, #021038 80%);
+  background: linear-gradient(135deg, #051866, #021038 80%);
 }
 
 /* FIRST */
@@ -59,9 +59,9 @@ ul.top-nav > li > a {
 }
 
 ul.top-nav > li:active > a, ul.top-nav > li:focus > a, ul.top-nav > li:hover > a, ul.top-nav > li > a:focus {
-	color: #fff;
-	text-decoration: none;
-	background: 0 0;
+  color: #fff;
+  text-decoration: none;
+  background: 0 0;
 }
 
 .popover-user-notifications {
@@ -88,51 +88,51 @@ ul.top-nav > li:active > a, ul.top-nav > li:focus > a, ul.top-nav > li:hover > a
 
 .navbar-main {
   margin-bottom: 0;
-	background: linear-gradient(90deg,#011a62,#0940b3);
-	border: 0;
+  background: linear-gradient(90deg,#011a62,#0940b3);
+  border: 0;
   border-bottom-color: currentcolor;
   border-bottom-style: none;
   border-bottom-width: 0px;
-	min-height: 38px;
-	font-family: Raleway,"Helvetica Neue",Helvetica,Arial,sans-serif;
-	font-size: 15px;
+  min-height: 38px;
+  font-family: Raleway,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 15px;
 }
 .navbar-main .navbar-nav > .active > a, .navbar-main .navbar-nav > .active > a:focus, .navbar-main .navbar-nav > .active > a:hover, .navbar-main .navbar-nav > .open > a, .navbar-main .navbar-nav > .open > a:focus, .navbar-main .navbar-nav > .open > a:hover, .navbar-main .navbar-nav > li > a:focus, .navbar-main .navbar-nav > li > a:hover {
-	color: #eee;
-	background-color: rgba(224,232,255,.08);
+  color: #eee;
+  background-color: rgba(224,232,255,.08);
 }
 
 .navbar-main li.account {
-	background-color: rgba(224,232,255,.08);
+  background-color: rgba(224,232,255,.08);
 }
 /* END */
 
 /* DROPDOWN */
 .dropdown-menu {
-	position: absolute;
-	top: 100%;
-	left: 0;
-	z-index: 1000;
-	display: none;
-	float: left;
-	min-width: 160px;
-	padding: 5px 0;
-	margin: 2px 0 0;
-	margin-top: 2px;
-	font-size: 14px;
-	text-align: left;
-	list-style: none;
-	background-color: #fff;
-	background-clip: padding-box;
-	border: 1px solid #ccc;
-	border: 1px solid rgba(0,0,0,.15);
-	border-top-color: rgba(0, 0, 0, 0.15);
-	border-top-style: solid;
-	border-top-width: 1px;
-	border-radius: 4px;
-	-webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
-	box-shadow: 0 6px 12px rgba(0,0,0,.175);
-	background: linear-gradient(270deg, #081e6e, #0e2475);
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 160px;
+  padding: 5px 0;
+  margin: 2px 0 0;
+  margin-top: 2px;
+  font-size: 14px;
+  text-align: left;
+  list-style: none;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0,0,0,.15);
+  border-top-color: rgba(0, 0, 0, 0.15);
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+  box-shadow: 0 6px 12px rgba(0,0,0,.175);
+  background: linear-gradient(270deg, #081e6e, #0e2475);
 }
 
 .dropdown-menu > li > a {
@@ -153,7 +153,7 @@ ul.top-nav > li:active > a, ul.top-nav > li:focus > a, ul.top-nav > li:hover > a
 
 /*
 #########################################################
-	CONTAINER
+  CONTAINER
 #########################################################
 */
 section#main-body {
@@ -165,16 +165,16 @@ section#main-body {
 
 /*
 #########################################################
-	FOOTER
+  FOOTER
 #########################################################
 */
 section#footer {
-	margin: 0;
-	padding: 20px 10px;
-	border-top: 1px solid #ddd;
-	color: #666;
-	font-size: .9em;
-	border-top: 1px solid rgba(224,232,255,.078);
+  margin: 0;
+  padding: 20px 10px;
+  border-top: 1px solid #ddd;
+  color: #666;
+  font-size: .9em;
+  border-top: 1px solid rgba(224,232,255,.078);
   background: linear-gradient(90deg,#011a62,#0940b3);
 }
 /* END */
@@ -184,56 +184,56 @@ section#footer {
 
 
 .home-kb-search .form-control {
-	padding-left: 50px;
-	border: 0px solid #eee;
-	color: #fff;
-	font-weight: 300;
-	background-color: rgba(224,232,255,.08);
+  padding-left: 50px;
+  border: 0px solid #eee;
+  color: #fff;
+  font-weight: 300;
+  background-color: rgba(224,232,255,.08);
 }
 
 
 #registration .field, #registration .form-control {
-	position: relative;
-	vertical-align: top;
-	border: 1px solid #ddd;
-	display: -moz-inline-stack;
-	display: inline-block;
-	color: #626262;
-	outline: 0;
-	background: #000;
-	height: 36px;
-	width: 100%;
-	border-radius: 3px;
-	font-size: 13px;
+  position: relative;
+  vertical-align: top;
+  border: 1px solid #ddd;
+  display: -moz-inline-stack;
+  display: inline-block;
+  color: #626262;
+  outline: 0;
+  background: #000;
+  height: 36px;
+  width: 100%;
+  border-radius: 3px;
+  font-size: 13px;
 }
 
 
 /*
 #########################################################
-	PANELS
+  PANELS
 #########################################################
 */
 
 .panel {
-	margin-bottom: 20px;
-	border: 0px solid transparent;
-	border-radius: 4px;
-	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
-	box-shadow: 0 8px 16px 0 rgba(0,0,0,.08);
-	background: linear-gradient(90deg,#011a62,#0940b3);
+  margin-bottom: 20px;
+  border: 0px solid transparent;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,.08);
+  background: linear-gradient(90deg,#011a62,#0940b3);
 }
 
 .panel-default > .panel-heading {
-	color: #fff;
-	background-color: #f5f5f5;
-	border-color:#ddd;
-	border-bottom-color: rgb(221, 221, 221);
+  color: #fff;
+  background-color: #f5f5f5;
+  border-color:#ddd;
+  border-bottom-color: rgb(221, 221, 221);
 }
 
 .panel-sidebar > .panel-heading {
-	color: #fff;
-	border-bottom: 0;
-	background: linear-gradient(90deg,#011a62,#0940b3);
+  color: #fff;
+  border-bottom: 0;
+  background: linear-gradient(90deg,#011a62,#0940b3);
 }
 
 .panel-sidebar .panel-title {
@@ -253,9 +253,9 @@ section#footer {
 }
 
 .panel-sidebar > .panel-footer {
-	color: #fff;
-	border-top: 0;
-	background: linear-gradient(90deg,#011a62,#285dcc);
+  color: #fff;
+  border-top: 0;
+  background: linear-gradient(90deg,#011a62,#285dcc);
 }
 
 /*
@@ -275,68 +275,68 @@ section#footer {
 
 /*
 #########################################################
-	SIDEBAR LEFT
+  SIDEBAR LEFT
 #########################################################
 */
 .list-group-item {
-	position: relative;
-	display: block;
-	padding: 10px 15px;
-	margin-bottom: -1px;
-	border: 1px solid #ddd;
-	background-color: rgba(0,0,0,.1);
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+  margin-bottom: -1px;
+  border: 1px solid #ddd;
+  background-color: rgba(0,0,0,.1);
 }
 
 a.list-group-item, button.list-group-item {
-	color: #fff;
+  color: #fff;
 }
 
 a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, button.list-group-item:hover {
-	color: #fff;
-	text-decoration: none;
-	background-color: rgba(224,232,255,.08);
+  color: #fff;
+  text-decoration: none;
+  background-color: rgba(224,232,255,.08);
 }
 
 .panel-sidebar a.list-group-item:hover i.far, .panel-sidebar a.list-group-item:hover i.fas {
-	color: #fff !important;
+  color: #fff !important;
 }
 
 .panel-sidebar.view-filter-btns .list-group-item.active, .panel-sidebar.view-filter-btns .list-group-item.active:focus, .panel-sidebar.view-filter-btns .list-group-item.active:hover {
-	background-color: rgba(224,232,255,.08);
-	border-color: #eee;
-	color: #fff;
+  background-color: rgba(224,232,255,.08);
+  border-color: #eee;
+  color: #fff;
 }
 
 .panel-sidebar a.list-group-item.active, .panel-sidebar a.list-group-item.active:focus, .panel-sidebar a.list-group-item.active:hover {
-	background-color: rgba(224,232,255,.08);
-	border-color: #465054;
-	border-bottom-color: rgb(70, 80, 84);
+  background-color: rgba(224,232,255,.08);
+  border-color: #465054;
+  border-bottom-color: rgb(70, 80, 84);
 }
 
 /*
 #########################################################
-	CLIENT AREA AFTER LOGIN
+  CLIENT AREA AFTER LOGIN
 #########################################################
 */
 
 /* tiles (services,quotes,tickets,invoices) */
 .tile .title {
-	font-weight: 700;
-	color: rgba(224,232,255,.8);
-	text-transform: uppercase;
-	font-size: 12px;
+  font-weight: 700;
+  color: rgba(224,232,255,.8);
+  text-transform: uppercase;
+  font-size: 12px;
 }
 
 .tiles .tile {
-	color: rgba(224,232,255,.8);
-	padding: 12px 20px;
-	border-right: 1px solid #ccc;
-	background-color: rgba(5,108,234,.08);
+  color: rgba(224,232,255,.8);
+  padding: 12px 20px;
+  border-right: 1px solid #ccc;
+  background-color: rgba(5,108,234,.08);
 }
 
 .tiles .tile:hover {
-	background-color: rgba(5,108,234,.16);
-	cursor: pointer;
+  background-color: rgba(5,108,234,.16);
+  cursor: pointer;
 }
 
 
@@ -345,18 +345,18 @@ a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, 
 
 /*
 #########################################################
-	BUTTONS
+  BUTTONS
 #########################################################
 */
 
 /*
-	Preview:https://i.imgur.com/ag6sdbj.png;
+  Preview:https://i.imgur.com/ag6sdbj.png;
 */
 ul.top-nav > li.primary-action > a.btn {
-	padding: 6px 15px;
-	color: #fff;
-	border-radius: 3px;
-	background-color: #1062fe;
+  padding: 6px 15px;
+  color: #fff;
+  border-radius: 3px;
+  background-color: #1062fe;
 }
 
 
@@ -373,8 +373,8 @@ ul.top-nav > li.primary-action > a.btn {
 
 
 .marketing-email-optin {
-	margin: 0 0 20px 0;
-	padding: 10px 20px 20px;
-	background-color: #000d;
-	border-radius: 3px;
+  margin: 0 0 20px 0;
+  padding: 10px 20px 20px;
+  background-color: #000d;
+  border-radius: 3px;
 }
