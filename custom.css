@@ -5,6 +5,18 @@
     Any custom styling you want to apply should be
     defined here.
 
+    ** Custom Stylesheet **
+
+    Pipiasi Bogdan. https://pipiasibogdan.ovh;
+    If you want to use this file just copy the link:
+			https://raw.githubusercontent.com/DemOnJR/whmcs-dark/master/custom.css
+    ;
+    or download it and update the file every day.
+
+    Tools used:
+    1. https://cssgradient.io/
+    ;
+
 ***************************************************** */
 body {
 	font-family: Roboto,sans-serif;
@@ -50,6 +62,22 @@ ul.top-nav > li:active > a, ul.top-nav > li:focus > a, ul.top-nav > li:hover > a
 	color: #fff;
 	text-decoration: none;
 	background: 0 0;
+}
+
+.popover-user-notifications {
+  border-radius: 0;
+  padding: 0;
+  border-color: #ddd;
+  min-width: 310px;
+  font-family: 'Open Sans',sans-serif;
+}
+
+.popover-user-notifications ul li.none {
+  padding: 12px 0;
+  min-height: auto;
+  text-align: center;
+  font-weight: 700;
+  background: linear-gradient(270deg,#081e6e,#0e2475);
 }
 /* END */
 
@@ -123,22 +151,11 @@ ul.top-nav > li:active > a, ul.top-nav > li:focus > a, ul.top-nav > li:hover > a
 }
 /* END */
 
-.popover-user-notifications {
-  border-radius: 0;
-  padding: 0;
-  border-color: #ddd;
-  min-width: 310px;
-  font-family: 'Open Sans',sans-serif;
-}
-
-.popover-user-notifications ul li.none {
-  padding: 12px 0;
-  min-height: auto;
-  text-align: center;
-  font-weight: 700;
-  background: linear-gradient(270deg,#081e6e,#0e2475);
-}
-
+/*
+#########################################################
+	CONTAINER
+#########################################################
+*/
 section#main-body {
   margin: 0;
   padding: 20px 0;
@@ -146,6 +163,11 @@ section#main-body {
   background: linear-gradient(135deg,#051866,#021038 80%);
 }
 
+/*
+#########################################################
+	FOOTER
+#########################################################
+*/
 section#footer {
 	margin: 0;
 	padding: 20px 10px;
@@ -155,8 +177,42 @@ section#footer {
 	border-top: 1px solid rgba(224,232,255,.078);
   background: linear-gradient(90deg,#011a62,#0940b3);
 }
+/* END */
 
 
+
+
+
+.home-kb-search .form-control {
+	padding-left: 50px;
+	border: 0px solid #eee;
+	color: #fff;
+	font-weight: 300;
+	background-color: rgba(224,232,255,.08);
+}
+
+
+#registration .field, #registration .form-control {
+	position: relative;
+	vertical-align: top;
+	border: 1px solid #ddd;
+	display: -moz-inline-stack;
+	display: inline-block;
+	color: #626262;
+	outline: 0;
+	background: #000;
+	height: 36px;
+	width: 100%;
+	border-radius: 3px;
+	font-size: 13px;
+}
+
+
+/*
+#########################################################
+	PANELS
+#########################################################
+*/
 
 .panel {
 	margin-bottom: 20px;
@@ -173,9 +229,11 @@ section#footer {
 	border-color:#ddd;
 	border-bottom-color: rgb(221, 221, 221);
 }
-.client-home-panels .panel > .panel-heading .panel-title .btn {
-  color: #000;
-  border: 0;
+
+.panel-sidebar > .panel-heading {
+	color: #fff;
+	border-bottom: 0;
+	background: linear-gradient(90deg,#011a62,#0940b3);
 }
 
 .panel-sidebar .panel-title {
@@ -184,20 +242,6 @@ section#footer {
   font-family: 'Open Sans',sans-serif;
   line-height: 26px;
   color: #fff;
-}
-
-.home-kb-search .form-control {
-	padding-left: 50px;
-	border: 0px solid #eee;
-	color: #fff;
-	font-weight: 300;
-	background-color: rgba(224,232,255,.08);
-}
-
-.panel-sidebar > .panel-heading {
-	color: #fff;
-	border-bottom: 0;
-	background: linear-gradient(90deg,#011a62,#0940b3);
 }
 
 .panel-footer {
@@ -214,12 +258,26 @@ section#footer {
 	background: linear-gradient(90deg,#011a62,#285dcc);
 }
 
+/*
+ Preview:https://i.imgur.com/E3uq8c3.png;
+*/
 .client-home-panels .panel > .panel-heading {
   border-bottom: 0;
   font-weight: 700;
   background: linear-gradient(90deg,#011a62,#285dcc);
 }
 
+.client-home-panels .panel > .panel-heading .panel-title .btn {
+  color: #000;
+  border: 0;
+}
+
+
+/*
+#########################################################
+	SIDEBAR LEFT
+#########################################################
+*/
 .list-group-item {
 	position: relative;
 	display: block;
@@ -243,21 +301,17 @@ a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, 
 	color: #fff !important;
 }
 
-#registration .field, #registration .form-control {
-	position: relative;
-	vertical-align: top;
-	border: 1px solid #ddd;
-	display: -moz-inline-stack;
-	display: inline-block;
-	color: #626262;
-	outline: 0;
-	background: #000;
-	height: 36px;
-	width: 100%;
-	border-radius: 3px;
-	font-size: 13px;
+.panel-sidebar.view-filter-btns .list-group-item.active, .panel-sidebar.view-filter-btns .list-group-item.active:focus, .panel-sidebar.view-filter-btns .list-group-item.active:hover {
+	background-color: rgba(224,232,255,.08);
+	border-color: #eee;
+	color: #fff;
 }
 
+.panel-sidebar a.list-group-item.active, .panel-sidebar a.list-group-item.active:focus, .panel-sidebar a.list-group-item.active:hover {
+	background-color: rgba(224,232,255,.08);
+	border-color: #465054;
+	border-bottom-color: rgb(70, 80, 84);
+}
 
 /*
 #########################################################
